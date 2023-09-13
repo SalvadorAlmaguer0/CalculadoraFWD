@@ -1,15 +1,18 @@
 # Calculadora de FWD
-# Un punto a considerar antes de la ejecucion de todo el codigo, es primero ejecutar unicamente las librerias, 
-# despues ya el codigo no deberia tener ningun error
+# Puntos a considerar:
+# Antes de la ejecucion de todo el codigo (en el caso de que se ejecute en la terminal de VSCode), es importante 
+# primero ejecutar unicamente las librerias, despues ya el codigo no deberia tener ningun error 
 
 # Antes de ejecutar el codigo, es importante mantener una cierta configuracoin debido al formato de la fecha.
-# Para ete codigo lo unico a tomar en cuenta para Visual Studio COde, es mantener el programa en españo
+# Para ete codigo lo unico a tomar en cuenta en Visual Studio Code, es mantener el programa en español
 # esto debido al formato de la fecha que se maneja.
-# Ademas de tener instaladas las librerias utilizadas.
-# Es posible que al ejecutar el codigo y no se tenga el Excel modificado, no logre hacer los calculos correctamente,
-# por lo que se sugiere utilizar la base de datos modificada, enla cual solo se agrego algunas fechas en las tablas 
-# donde hay dias fesivos y se interpolaron los valores para no afectar en el resultado.
 
+# Ademas de tener instaladas las librerias utilizadas.
+# Es posible que al ejecutar el codigo y no se tenga el Excel modificado (INPUTS.xlsx) en la misma carpeta, no logre
+# hacer los calculos correctamente, por lo que se sugiere utilizar la base de datos modificada, enla cual solo se 
+# agrego algunas fechas en las tablas donde hay dias fesivos y se interpolaron los valores para no afectar en la grafica.
+
+# El codigo y las librerias siguen estando mal optimizadas. (Falta mejorar las practicas)
 from tkinter import *
 from tkinter import ttk
 from tkcalendar import Calendar
